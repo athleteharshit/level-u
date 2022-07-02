@@ -1,1 +1,1 @@
-export * from './common.fun';
+export * from './common.fn';

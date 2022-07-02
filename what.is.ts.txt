@@ -1,0 +1,2 @@
+->what is typescript?
+->why we are using a typescript?

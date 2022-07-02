@@ -1,7 +1,8 @@
 import axios, { AxiosError, AxiosRequestConfig } from 'axios';
+import { Env } from '../../common/constants';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com/',
+  baseURL: Env.BASE_URL,
   timeout: 5000
 });
 
