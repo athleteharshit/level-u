@@ -1,5 +1,7 @@
+import { Box } from '@mui/material';
+
 function FormUi() {
-  return <>Form</>;
+  return <Box>Form</Box>;
 }
 
 export default FormUi;
