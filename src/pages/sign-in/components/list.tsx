@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Box } from '@mui/material';
 
 type Data = {
@@ -117,3 +118,51 @@ export default List;
 // }
 
 // checkIsArrs('b', 'c');
+
+// type PageInfo = {
+//   id: string;
+//   name: string;
+// };
+
+// type Page = Record<'home' | 'about', PageInfo>;
+
+// ?* ///
+// const getSuffix = (name: string) => {
+//   return name;
+// };
+
+// let suffix: string | null = getSuffix('harshit');
+
+// if (suffix !== null) {
+//   suffix = suffix.toUpperCase();
+//   ['gupta', 'saxena'].forEach((name) => name + suffix.toUpperCase());
+// }
+
+// if (suffix !== null) {
+//   const exampleSuffix = suffix;
+//   setTimeout(() => {
+//     // eslint-disable-next-line no-console
+//     console.log(exampleSuffix.toLowerCase());
+//   });
+// }
+// suffix = null;
+
+// ?* type
+// type Prize = {
+//   first: string;
+//   second: string;
+// };
+
+// const logPrize = (prize: Prize) => {
+//   let key: keyof Prize;
+//   for (key in prize) {
+//     console.log(key, prize[key]);
+//   }
+// };
+
+// const prize = {
+//   first: 'gold',
+//   second: 'iron'
+// };
+
+// logPrize(prize);
