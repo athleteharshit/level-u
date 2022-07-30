@@ -166,3 +166,26 @@ export default List;
 // };
 
 // logPrize(prize);
+
+// ?* ///
+// type Person = {
+//   age: number | null;
+//   experience: number | null;
+// };
+
+// function update(button: number, person: Person | null) {
+//   if (button === 1) {
+//     if (person) {
+//       if (person.age !== null) {
+//         if (person.experience !== null) {
+//           person.age++;
+//           person.experience += 10;
+//         } else {
+//           throw new Error('Person experience not set');
+//         }
+//       } else {
+//         throw new Error('Person age not set');
+//       }
+//     }
+//   }
+// }
