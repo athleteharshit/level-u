@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 function FormUi() {
   return (
     <Box>
-      Typescript FormUi
+      Typescript FormUis
       {/* <List /> */}
       {/* <Person
         name="harshit"
