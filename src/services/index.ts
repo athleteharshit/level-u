@@ -1,4 +1,4 @@
-import axios, { AxiosResponse } from "axios";
+import axios, { AxiosResponse } from 'axios';
 
 const apiType = {
   get: 'get'
@@ -7,10 +7,14 @@ const apiType = {
 class Httppp {
   static getUser(): Promise<AxiosResponse<IUserDTO>> {
     return new Promise((resolve, reject) => {
-      axios.get('https://jsonplaceholder.typicode.com/posts').then(resolve).catch(reject).finally(() => {
-        console.log('finally');
-      })
-    })
+      axios
+        .get('https://jsonplaceholder.typicode.com/posts')
+        .then(resolve)
+        .catch(reject)
+        .finally(() => {
+          console.log('finally');
+        });
+    });
   }
 }
 
@@ -23,4 +27,4 @@ export type IUserDTO = {
   id: number;
   title: string;
   body: string;
-}[]
+}[];
