@@ -115,10 +115,10 @@ function Basic() {
 //   }
 
 // *4 Avoid long list of function arguments
-// //
+// // //
 // function createPerson(firstName, lastName, height, weight, gender) {
-//     // ...
-//   }
+//   // ...
+// }
 
 //   //
 //   function createPerson({ firstName, lastName, height, weight, gender }) {
